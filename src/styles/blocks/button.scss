@@ -1,0 +1,27 @@
+.button {
+
+  border-radius: 15px;
+  border: 2px solid;
+
+  &__main {
+    width: 296px;
+    height: 56px;
+  }
+
+  &__secondary {
+    width: 290px;
+    height: 48px;
+    background-color: $color-primary-300;
+    border-color: $color-primary-300;
+
+    &:hover {
+      color: $color-primary-300;
+      border: 2px solid $color-primary-300;
+    }
+  }
+
+  // &__drop {
+  //   width: 170px;
+  //   height: 48px;
+  // }
+}
