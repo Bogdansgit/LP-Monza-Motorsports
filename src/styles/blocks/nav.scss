@@ -1,5 +1,9 @@
 .nav {
 
+  &__link :hover {
+    color: $color-primary-300;
+  }
+
   &__link > li > a {
     padding: 15px 0;
   }
@@ -16,7 +20,11 @@
     margin-right: 30px;
   }
 
+  &__link > li > a {
+    fill: $color-primary-200;
+  }
+
   &__link :hover {
-    fill: red;
+    fill: $color-primary-300;
   }
 }

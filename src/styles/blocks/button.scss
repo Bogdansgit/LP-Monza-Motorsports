@@ -2,6 +2,7 @@
 
   border-radius: 15px;
   border: 2px solid;
+  transition: 300ms;
 
   &__main {
     width: 296px;
@@ -19,9 +20,4 @@
       border: 2px solid $color-primary-300;
     }
   }
-
-  // &__drop {
-  //   width: 170px;
-  //   height: 48px;
-  // }
 }
