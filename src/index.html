@@ -30,12 +30,7 @@
           </div>
 
           <nav class="nav">
-            <ul class="
-              nav__link
-              m-0
-              p-0
-              d-flex
-              align-items-center"
+            <ul class="nav__link m-0 p-0 d-flex align-items-center"
             >
               <li><a href="#">Inventory</a></li>
               <li><a href="#">Financing</a></li>
@@ -84,7 +79,7 @@
 
           <div class="sorting-aside">
 
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="sorting-aside__drops d-flex justify-content-between">
               <div class="dropdown drop">
                 <button class="drop__btn d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Year
@@ -178,9 +173,494 @@
               </a>
             </div>
 
+            <div class="sorting-aside__checks">
+              <div class="">
+                <input class="form-check-input sorting-aside__input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label sorting-aside__label" for="flexCheckDefault">
+                  Instantly available vehicles
+                </label>
+              </div>
+
+              <div class="sorting-aside__sort-by">
+                <div class="">
+                  <button class="sorting-aside__dropdown d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span>Sort by</span>
+                    <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.33334 0L0.444458 2.88167H2.61112V7.94446H4.05555V2.88167H6.22221L3.33334 0Z" fill="#DF4E3C"/>
+                      <path d="M8.38892 10.1183V5.05554H6.9445V10.1183H4.77783L7.66671 13L10.5556 10.1183H8.38892Z" fill="#8D8D8D"/>
+                    </svg>
+                    Publication date (ascending)
+                  </button>
+                  <ul class="dropdown-menu drop__menu sorting-aside__sort-by-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><span class="drop__item" href="#">Publication date (descending)</span></li>
+                    <li><span class="drop__item" href="#">Price (ascending)</span></li>
+                    <li><span class="drop__item" href="#">Price (descending)</span></li>
+                    <li><span class="drop__item" href="#">Mileage (ascending)</span></li>
+                    <li><span class="drop__item" href="#">Mileage (descending)</span></li>
+                    <li><span class="drop__item" href="#">Performance (ascending)</span></li>
+                    <li><span class="drop__item" href="#">Performance (descending)</span></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="catalog">
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Volkswagen-Tiguan.png" alt="Volkswagen Tiguan">
+              </div>
+
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2019</span>
+                  <h6>Volkswagen Tiguan</h6>
+                </div>
+
+                <div class="catalog__card-desc">
+                  <span>19,855 km</span> |
+                  <span>Automatic</span> |
+                  <span>Diesel</span>
+                </div>
+
+                <div class="catalog__card-price">
+                  <h5>$34,888</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card catalog__card--new">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Toyota-Highlander-XLE.png" alt="Toyota Highlander XLE">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2014 </span>
+                  <h6>Toyota Highlander XLE</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>69,000 km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$27,875</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Lexus-RX-350-LUXURY.png" alt="Lexus RX 350 LUXURY">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2017  </span>
+                  <h6>Lexus RX 350 LUXURY</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>39,850 km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$38,775</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Toyota-Highlander-LE-A....png" alt="Toyota Highlander LE A">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2016</span>
+                  <h6>Toyota Highlander LE A...</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>104,000 km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$23,728</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Hyundai-Elantra.png" alt="Hyundai Elantra">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2017</span>
+                  <h6>Hyundai Elantra</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>95,000  km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$11,788</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Mercedes-Benz-GLE-Cl....png" alt="Mercedes-Benz GLE-Cl">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2018</span>
+                  <h6>Mercedes-Benz GLE-Cl</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>59,800 km</span> |
+                  <span>Automatic</span> |
+                  <span>Diesel</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$38,878</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card catalog__card--sold">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Toyota-Venza-AWD-XLE.png" alt="Toyota Venza AWD XLE">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2015</span>
+                  <h6>Toyota Venza AWD XLE...</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>99,000 km</span> |
+                  <span>Automatic</span> |
+                  <span>Diesel</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$18,620</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card catalog__card--new">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Lexus-RX-350-F-SPORT.png" alt="Lexus RX 350 F-SPORT">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2016</span>
+                  <h6>Lexus RX 350 F-SPORT</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>86,000 km</span> |
+                  <span>Automatic</span> |
+                  <span>Diesel</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$34,888</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Volkswagen-Tiguan.png" alt="Volkswagen Tiguan">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2019</span>
+                  <h6>Volkswagen Tiguan</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>19,855 km</span> |
+                  <span>Automatic</span> |
+                  <span>Diesel</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$34,888</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card catalog__card--new">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Toyota-Highlander-XLE.png" alt="Toyota Highlander XLE">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2014 </span>
+                  <h6>Toyota Highlander XLE</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>69,000 km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$27,875</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Lexus-RX-350-LUXURY.png" alt="Lexus RX 350 LUXURY">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2017  </span>
+                  <h6>Lexus RX 350 LUXURY</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>39,850 km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$38,775</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Toyota-Highlander-LE-A....png" alt="Toyota Highlander LE A">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2016</span>
+                  <h6>Toyota Highlander LE A...</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>104,000 km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$23,728</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card catalog__card--new">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Volkswagen-Tiguan.png" alt="Volkswagen Tiguan">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2019</span>
+                  <h6>Volkswagen Tiguan</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>19,855 km</span> |
+                  <span>Automatic</span> |
+                  <span>Diesel</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$34,888</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Toyota-Highlander-XLE.png" alt="Toyota Highlander XLE">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2014 </span>
+                  <h6>Toyota Highlander XLE</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>69,000 km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$27,875</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Lexus-RX-350-LUXURY.png" alt="Lexus RX 350 LUXURY">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2017  </span>
+                  <h6>Lexus RX 350 LUXURY</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>39,850 km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$38,775</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Toyota-Highlander-LE-A....png" alt="Toyota Highlander LE A">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2016</span>
+                  <h6>Toyota Highlander LE A...</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>104,000 km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$23,728</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Hyundai-Elantra.png" alt="Hyundai Elantra">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2017</span>
+                  <h6>Hyundai Elantra</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>95,000  km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$11,788</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Mercedes-Benz-GLE-Cl....png" alt="Mercedes-Benz GLE-Cl">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2018</span>
+                  <h6>Mercedes-Benz GLE-Cl</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>59,800 km</span> |
+                  <span>Automatic</span> |
+                  <span>Diesel</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$38,878</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Venza.png" alt="Toyota Venza AWD XLE">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2015</span>
+                  <h6>Toyota Venza AWD XLE...</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>99,000 km</span> |
+                  <span>Automatic</span> |
+                  <span>Diesel</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$18,620</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card catalog__card--new">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Lexus-RX-350-F-SPORT.png" alt="Lexus RX 350 F-SPORT">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2016</span>
+                  <h6>Lexus RX 350 F-SPORT</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>86,000 km</span> |
+                  <span>Automatic</span> |
+                  <span>Diesel</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$34,888</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Volkswagen-Tiguan.png" alt="Volkswagen Tiguan">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2019</span>
+                  <h6>Volkswagen Tiguan</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>19,855 km</span> |
+                  <span>Automatic</span> |
+                  <span>Diesel</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$34,888</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog__card">
+              <div class="catalog__card-img-box">
+                <img src="images/catalog/Toyota-Highlander-XLE.png" alt="Toyota Highlander XLE">
+              </div>
+              <div class="catalog__card-description">
+                <div class="catalog__card-title">
+                  <span>2014 </span>
+                  <h6>Toyota Highlander XLE</h6>
+                </div>
+                <div class="catalog__card-desc">
+                  <span>69,000 km</span> |
+                  <span>Automatic</span> |
+                  <span>Gas</span>
+                </div>
+                <div class="catalog__card-price">
+                  <h5>$27,875</h5>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+      <section class="subscription">
+        <div class="container">
+          <div class="subscription__title">
+            <h4>Haven't found a suitable vehicle?</h4>
+            <span>Sign up for our newsletter and be the first to know when we publish new vehicle offers.
+            </span>
           </div>
         </div>
-
       </section>
     </main>
 
