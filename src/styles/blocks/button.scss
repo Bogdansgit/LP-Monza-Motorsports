@@ -20,4 +20,17 @@
       border: 2px solid $color-primary-300;
     }
   }
+
+  &__form {
+    min-width: 190px;
+    height: 54px;
+    background-color: $color-primary-200;
+    border-radius: 15px;
+    border: 2px solid $color-primary-200;
+
+    &:hover {
+      background-color: #000;
+      color: $color-primary-200;
+    }
+  }
 }
